@@ -1,0 +1,147 @@
+body {
+width: 1000px;
+font-family: 'Arial';
+}
+/*--------------------------------------------------*/
+header{
+	width: 1000px;
+	height: 100px;
+	background-color: black;
+	margin-bottom: 40px;
+}
+header img{
+	margin: 23px 10px;
+}
+/*--------------------------------------------------*/
+.item{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	max-height: 202px;
+	max-width: 700px;
+	display: flex;
+	margin-left: 10px;
+	position: relative;
+}
+.ap{
+	display: block;
+}
+.item .ap{
+	width: 354px;
+	line-height:0.6em;
+}
+.item img{
+	height: 202px;
+	margin-right: 18px;
+}
+.item h1{
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 15px;
+	width: 300px;
+	margin-bottom: 15px;
+}
+.item p{
+	font-size: 12px;
+	width: 300px;
+	line-height: 1.5em;
+}
+.item .bay{
+	width: 200px;
+	height: 75px;
+	position: relative;
+}
+.item .bay button{
+	background-color: #00ade4;
+	width:200px;
+	height:40px;
+	border-radius: 10px;
+	border-style: none;
+	color: white;
+	font-size: 20px;
+}
+.item .bay p{
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	margin-top: 50px;
+	margin-left:22%;
+}
+/*--------------------------------------------------*/
+.splin{
+	width: 695px;
+	height: 1px;
+	background-color: lightgray;
+	margin-left: 10px;
+}
+/*--------------------------------------------------*/
+.cart{
+	position: fixed;
+	margin-left: 750px;
+	border-radius: 10px;
+	border-color: lightgray;
+	border-width: 1px;
+	border-style: solid;
+	width: 228px;
+	padding-left: 15px;
+}
+.cart .splin_1{
+	width: 100%;
+	height: 0.35em;
+}
+.cart img{
+	margin: 15px 0 1.5em 15px;
+}
+.cart h1{
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 15px;
+}
+.cart .splin{
+	width: 200px;
+	background-color: lightgray;
+	height: 1px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.cart .list .close{
+	background-image: url('image/close.png');
+	width: 10px;
+	height: 10px;
+	margin-left: 10px;
+	margin-right: 10px;	
+}
+.cart .list p{
+	font-size: 12px;
+}
+.cart .list .name{
+	width: 155px;
+	white-space: pre-line;
+	margin-bottom: 1.5em;
+	
+}
+.cart .list .price{
+	width: 30px;
+	text-align: right;
+}
+/*--------------------------------------------------*/
+.bay_item button{
+	background-color: #29d807;
+	border-radius: 10px;
+	color: white;
+	font-size: 18px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border-style: none;
+	width: 200px;
+	height: 40px;
+}
+.bay_item p{
+	font-size: 12px;
+	margin-bottom: 1.5em;
+}
+/*--------------------------------------------------*/
+footer{
+	background-color: #10546b;
+	width: 1000px;
+	height: 125px;
+}
